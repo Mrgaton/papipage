@@ -1,7 +1,6 @@
 name = "papipage"
-main = "workers/index.js"  # optional if you have Worker scripts
 compatibility_date = "2026-02-24"
 
 [site]
-bucket = "./public"  # folder containing index.html, css, js
+bucket = "./"  # folder containing index.html, css, js
 entry-point = "workers"  # optional if you also have Worker code
